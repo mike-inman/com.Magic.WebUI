@@ -1,0 +1,13 @@
+
+PREVIEW
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL -Version 2.2.0-preview1
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL.Design -Version 2.0.0-preview1
+
+CURRENT
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL -Version 2.1.2
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL.Design -Version 1.1.1
+
+Remove-Migration
+Add-Migration
+Update-Database
+
